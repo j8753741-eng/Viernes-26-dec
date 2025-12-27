@@ -2,34 +2,42 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>J’adore ça magnifique</title>
+    <title>Carta de Amor</title>
 
-    <!-- Tipografías románticas y antiguas -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+    <!-- Tipografías románticas -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Great+Vibes&display=swap" rel="stylesheet">
 
     <style>
         body {
             margin: 0;
             padding: 0;
-            background: radial-gradient(circle at top, #0d0b08, #000000);
+            background: radial-gradient(circle at top, #0b0906, #000000);
             font-family: 'Cormorant Garamond', serif;
+            overflow-x: hidden;
+        }
+
+        /* Animación tipo vela */
+        @keyframes vela {
+            0%   { box-shadow: inset 0 0 90px rgba(0,0,0,0.7), 0 0 40px rgba(255,200,120,0.15); }
+            50%  { box-shadow: inset 0 0 70px rgba(0,0,0,0.5), 0 0 60px rgba(255,200,120,0.25); }
+            100% { box-shadow: inset 0 0 90px rgba(0,0,0,0.7), 0 0 40px rgba(255,200,120,0.15); }
         }
 
         .pergamino {
-            max-width: 1100px;
+            max-width: 1150px;
             margin: 120px auto;
             padding: 10px;
-            background: linear-gradient(135deg, #7a5a2e, #c9a24d, #7a5a2e);
-            border-radius: 26px;
-            box-shadow: 0 30px 60px rgba(0,0,0,0.7);
+            background: linear-gradient(135deg, #6f4e24, #c9a24d, #6f4e24);
+            border-radius: 28px;
+            box-shadow: 0 40px 80px rgba(0,0,0,0.8);
         }
 
         .carta {
-            background: radial-gradient(circle at center, #3a2a16 0%, #2a1c0f 60%, #1c1209 100%);
-            padding: 100px 110px;
-            border-radius: 22px;
+            background: radial-gradient(circle at center, #3a2915 0%, #2a1c0e 60%, #160d05 100%);
+            padding: 110px 120px;
+            border-radius: 24px;
             color: #f4ead6;
-            box-shadow: inset 0 0 80px rgba(0,0,0,0.6);
+            animation: vela 6s ease-in-out infinite;
         }
 
         .fecha {
@@ -37,55 +45,61 @@
             font-size: 22px;
             color: #e6c98b;
             letter-spacing: 2px;
-            margin-bottom: 70px;
+            margin-bottom: 80px;
         }
 
         h1 {
             text-align: center;
             font-family: 'Playfair Display', serif;
-            font-size: 52px;
-            font-weight: normal;
+            font-size: 54px;
             letter-spacing: 6px;
-            margin-bottom: 90px;
+            margin-bottom: 100px;
             color: #f2d48f;
         }
 
+        /* Texto principal con sensación manuscrita */
         p {
             font-size: 30px;
-            line-height: 2.4;
+            line-height: 2.5;
             text-align: justify;
-            margin-bottom: 45px;
+            margin-bottom: 48px;
         }
 
         strong {
-            color: #f5db9c;
+            color: #f6df9f;
+        }
+
+        .manuscrito {
+            font-family: 'Great Vibes', cursive;
+            font-size: 38px;
+            line-height: 2.2;
+            color: #f7e7c1;
         }
 
         .adorno {
             text-align: center;
-            font-size: 40px;
+            font-size: 42px;
             color: #d4af37;
-            margin: 90px 0;
+            margin: 100px 0;
         }
 
         .cierre {
-            margin-top: 90px;
-            font-size: 32px;
-            line-height: 2.5;
+            margin-top: 100px;
+            font-size: 34px;
+            line-height: 2.6;
         }
 
         .firma {
-            margin-top: 80px;
-            font-size: 34px;
-            font-style: italic;
+            margin-top: 90px;
+            font-family: 'Great Vibes', cursive;
+            font-size: 42px;
         }
 
         .nombre {
-            margin-top: 25px;
-            font-size: 38px;
-            font-weight: 600;
+            margin-top: 30px;
+            font-size: 40px;
             letter-spacing: 3px;
-            color: #f5db9c;
+            color: #f6df9f;
         }
     </style>
 </head>
@@ -98,55 +112,47 @@
                 Viernes, 26 de diciembre — Noche
             </div>
 
-            <h1>me encanta princesa hermosa</h1>
+            <h1>Me encanta princesa hermosa</h1>
 
-            <p>
+            <p class="manuscrito">
                 Mi amor eterno, <strong>Valeria Isabel Petro Villazón</strong>:
             </p>
 
             <p>
-                Esta noche cae lentamente, como si el tiempo también se inclinara ante lo que siento por ti.
-                Es viernes, la noche avanza, y mi corazón permanece despierto solo por ti. No hay instante
-                en el que no te piense, no hay latido que no pronuncie tu nombre en silencio. Te extraño…
-                te extraño con una profundidad que a veces duele, porque amarte así es llevarte conmigo
-                incluso cuando no estás aquí.
+                Esta noche cae lentamente, como si el tiempo mismo se arrodillara ante lo que siento por ti.
+                La noche avanza y mi corazón permanece despierto solo por tu nombre. No hay instante en el
+                que no te piense, no hay latido que no te busque. Te extraño… con una intensidad que a veces
+                duele, porque amarte así es llevarte conmigo incluso en la distancia.
             </p>
 
             <p>
                 Te extraño cuando cierro los ojos y cuando los abro. Te extraño en cada pensamiento que nace
-                sin permiso, en cada suspiro que se me escapa lentamente. Extraño tu voz, tu risa, tu manera
-                de existir. Extraño tu presencia como se extraña la luz en la oscuridad, como se extraña el
-                hogar cuando se está lejos.
+                sin permiso, en cada suspiro profundo. Extraño tu voz, tu risa, tu manera de existir. Extraño
+                tu presencia como se extraña la luz cuando la noche es larga.
             </p>
 
             <p>
-                Esta noche sé que te duele la cabeza, y daría todo por poder estar a tu lado. Cambiaría sin
-                dudarlo mi descanso por el tuyo. Ojalá pudiera abrazarte con calma, besarte la frente y
-                decirte en voz baja que cierres los ojos, que descanses, que yo estoy aquí cuidándote.
+                Sé que esta noche te duele la cabeza, y daría todo por estar a tu lado. Cambiaría sin dudar
+                mi descanso por el tuyo. Ojalá pudiera abrazarte con calma, besarte la frente y decirte en
+                voz baja que cierres los ojos, que descanses, que yo estoy aquí cuidándote.
             </p>
 
             <p>
-                Me duele no poder estar físicamente contigo. Porque lo único que deseo es protegerte,
+                Me duele no poder estar físicamente contigo, porque lo único que deseo es protegerte,
                 acompañarte, ser refugio cuando el mundo pesa. Quisiera envolverte en un abrazo largo,
                 profundo, sincero, de esos que no prometen nada porque lo entregan todo.
             </p>
 
             <p>
-                Quiero que sepas que estoy para ti en cada momento difícil, en cada noche pesada, en cada
-                instante en el que necesites apoyo. No tienes que ser fuerte conmigo. Yo estoy aquí para
-                sostenerte cuando tus fuerzas se cansen.
+                Estoy para ti en cada momento difícil, en cada noche pesada, en cada instante en el que
+                necesites apoyo. No tienes que ser fuerte conmigo; yo estoy aquí para sostenerte cuando tus
+                fuerzas se cansen.
             </p>
 
             <p>
-                Amarte es elegirte incluso en la oscuridad, incluso en los días grises. Y yo te elijo,
-                Valeria, una y otra vez. Te elijo en tu fragilidad y en tu fortaleza, en tus silencios y
-                en tus sonrisas. Te elijo porque eres mi amor.
-            </p>
-
-            <p>
-                Esta noche, aunque la distancia exista, mi corazón está contigo. Deseando que el dolor se
-                vaya, que tu cuerpo descanse y que tu alma se sienta acompañada. Estoy aquí, amándote con
-                una intensidad que no se apaga.
+                Amarte es elegirte incluso en la oscuridad. Y yo te elijo, Valeria, una y otra vez. Te elijo
+                en tu fragilidad y en tu fortaleza, en tus silencios y en tus sonrisas. Te elijo porque eres
+                mi amor.
             </p>
 
             <div class="adorno">✦ ✦ ✦</div>
@@ -163,7 +169,7 @@
             </div>
 
             <div class="nombre">
-                Valeria Isabel Petro Villazón ❤️😘😘
+                Valeria Isabel Petro Villazón❤️😘😘
             </div>
 
         </div>
